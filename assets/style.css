@@ -87,7 +87,7 @@
       margin-bottom: 2rem;
   }
 
-  .cover-block {
+  .cover-block-id {
       width: 220px;
       height: 280px;
       background: #eaeae5;
@@ -101,7 +101,26 @@
       font-size: 0.9rem;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
       margin-bottom: 2rem;
-      background-image: url("https://cahyanudien.github.io/hening-yang-berjalan/assets/cover.jpg");
+      background-image: url("https://cahyanudien.github.io/hening-yang-berjalan/assets/cover-id.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+
+  .cover-block-en {
+      width: 220px;
+      height: 280px;
+      background: #eaeae5;
+      border: 1px solid #d4d4d4;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6b6b6b;
+      font-style: italic;
+      font-size: 0.9rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+      margin-bottom: 2rem;
+      background-image: url("https://cahyanudien.github.io/hening-yang-berjalan/assets/cover-en.jpg");
       background-size: cover;
       background-position: center;
   }
