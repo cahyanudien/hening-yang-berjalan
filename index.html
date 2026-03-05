@@ -141,10 +141,11 @@
       <!-- where to buy / read cards -->
       <div class="section-title" id="purchase-books">Baca & Beli</div>
       <div class="purchase-grid">
-        <a href="#" class="purchase-card">
+        <a href="#purchase-books" class="purchase-card disabled-card">
           <span class="purchase-icon">📱</span>
           <span class="purchase-title">Kindle</span>
           <span class="purchase-sub">Amazon</span>
+          <span class="unavailable-badge">Belum Tersedia</span>
         </a>
         <a
           href="https://play.google.com/store/books/details?id=xOfFEQAAQBAJ"
@@ -155,10 +156,11 @@
           <span class="purchase-title">Google Play</span>
           <span class="purchase-sub">Buku</span>
         </a>
-        <a href="#" class="purchase-card">
+        <a href="#purchase-books" class="purchase-card disabled-card">
           <span class="purchase-icon">🍎</span>
           <span class="purchase-title">Apple Books</span>
           <span class="purchase-sub">iOS/macOS</span>
+          <span class="unavailable-badge">Belum Tersedia</span>
         </a>
       </div>
 
@@ -240,9 +242,11 @@
       </div>
 
       <!-- call to action buttons -->
-      <div class="action-row">
+      <div class="action-row" id="purchase-books">
         <a href="#purchase-books" class="btn-primary"> Beli buku → </a>
-        <a href="#" class="btn-secondary"> ⭐ Goodreads </a>
+        <a href="#purchase-books" class="btn-secondary disabled">
+          ⭐ Goodreads
+        </a>
         <!-- <a href="#" class="btn-secondary"> Baca sampel </a> -->
       </div>
 
